@@ -7,7 +7,12 @@ body {
     margin: 0;
     padding: 20px;
 }
-
+/* Add this to your style.css file */
+nav ul li a.active {
+    color: #007BFF; /* A bright blue to show the active page */
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
 /* A container to center the content and limit its width */
 .container {
     max-width: 900px;
